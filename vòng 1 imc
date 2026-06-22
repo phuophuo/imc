@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Redirect</title>
+</head>
+<body>
+<script>
+const isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
+
+if (isMobile) {
+    // Mở bằng điện thoại
+    window.location.href = 'https://tally.so/r/ODrdga';
+} else {
+    // Mở bằng máy tính
+    window.location.href = 'https://tally.so/r/A7a8de';
+}
+</script>
+</body>
+</html>
